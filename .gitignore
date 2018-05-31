@@ -7,7 +7,7 @@ target/
 .project
 .settings
 .cache-main
-.txt
+*.txt
 
 # SBT
 boot/

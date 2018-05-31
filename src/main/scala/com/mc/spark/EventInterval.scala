@@ -52,7 +52,7 @@ object EventInterval {
 
   def main(args: Array[String]) {
 
-    val spark = SparkSession.builder.master("local").appName("Q1").getOrCreate()
+    val spark = SparkSession.builder.master("local").appName("EventsCountIntervalBased").getOrCreate()
 
     runProgrammaticSchemaExample(spark)
 
